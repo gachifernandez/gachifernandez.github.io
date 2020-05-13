@@ -1,0 +1,133 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <h2>Tabla múltiples filas y columnas</h2>
+    <table class="table table-bordered">
+        <tbody>
+        <tr>
+            <td>x</td>
+            <td>o</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>o</td>
+            <td>x</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>o</td>
+            <td>x</td>
+            
+        </tr>
+        </tbody>
+    </table>    
+    <h2>Tabla con cabecera y cuerpo</h2>
+    
+    <table class="table table-bordered table-striped table-hover table-dark">
+        <thead>
+            <tr>
+                <th>Verdulería 🥕</th>
+                <th>Dietética 🌾</th>
+                <th>Fiambrería 🧀</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Zanahoria</td>
+                <td>Pimentón</td>
+                <td>Queso cremoso</td>
+            </tr>
+            <tr>
+                <td>Limón</td>
+                <td>Provenzal</td>
+                <td>Jamón cocido</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <h2>Tabla con cabecera, cuerpo, pie de página y caption</h2>
+    <table class="table table-bordered table-striped table-hover table-dark">
+        <caption>Gastos semanales en compras</caption>
+        <thead>
+            <tr>
+                <th>Verdulería</th>
+                <th>Dietética</th>
+                <th>Fiambrería</th>
+                <th>Total</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>100</td>
+                <td>120</td>
+                <td>55</td>
+                <td>275</td>
+            </tr>
+            <tr>
+                <td>120</td>
+                <td>55</td>
+                <td>100</td>
+                <td>275</td>
+
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Verdulería</th>
+                <th>Dietética</th>
+                <th>Fiambrería</th>
+                <th>Total</th>
+
+            </tr>
+
+        </tfoot>
+    </table>
+
+    <h2>Columnas largas</h2>
+    <table class="table table-bordered table-striped table-hover">
+        <caption>Horarios bus Córdoba-Carlos Paz</caption>
+        <thead class="table-dark">
+            <tr>
+                <th colspan="2">Ida 🚌</th>
+                <th colspan="2">Vuelta 🚌</th>
+            </tr>
+            <tr>
+                <th>Sale de Córdoba</th>
+                <th>LLega a Carlos Paz</th>
+                <th>Sale de Carlos Paz</th>
+                <th>Llega a Córdoba</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>10</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>11</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>12</td>
+                <td>13</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
