@@ -1,0 +1,73 @@
+/* por tag*/
+h2 {
+    color : red;
+    font-size: 36pt;
+}
+p {
+    color: blue;
+    font-family: monospace; 
+}
+
+/* por id */
+#titulo-1 {
+    font-style: italic;
+}
+#titulo-2 {
+    font-weight: 900;
+}
+
+/* por clase */
+.base {
+    border: 2px dashed orangered;
+    padding: 1em 2em 3em 4em;
+    margin: 4em 3em 2em 1em;
+    margin-top: 4em;
+    margin-right: 3em;
+    padding-bottom: 3em;
+    padding-left: 4em;
+}
+
+.ultimo {
+    color: green;
+}
+
+/*combinado*/
+p.ultimo {
+    color: blueviolet;
+}
+.par.ultimo {
+    font-weight: bold;
+}
+
+/*alternativas*/
+h2 , h3 {
+    color: cornflowerblue; /* al h2 se le aplica este estilo porque está después */
+    font-size: 36pt;
+}
+
+/* descendiente directo: propiedades aplican al selector de la derecha */
+.base > h2 {
+    text-align: right;
+}
+.base > p.par > span {
+    text-decoration: underline;
+}
+/* descendiente indirecto */
+.base .ejemplo {
+    font-family: sans-serif;
+}
+
+
+
+
+/* <selector> { <llave> : <valor> ; ... } */
+
+/*
+tag {...}
+#id {...}
+.clase {...}
+.clase1.clase2 {}
+este, o-este {}
+ascendiente > descendiente-directo {}
+ascendiente descendiente-indirecto {}
+*/
