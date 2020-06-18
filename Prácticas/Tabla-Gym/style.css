@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+:root{
+    --color-bordes: #112d35 ;
+    --color-fondo-encabezados: #03525c ;
+    --color-fondo-links: #b1c3cb ;
+    --color-hover: #891e35;
+    --color-semana-par: #7fb5b5;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Sen', sans-serif;
+}
+
+.tabla {
+    margin: auto;
+    border: 2px solid var(--color-bordes) ;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid var(--color-bordes) ;
+    padding: 7px;
+    font-family: 'Sen', sans-serif;
+
+}
+
+.encabezado {
+    background-color: var(--color-fondo-encabezados);
+}
+
+.ejercicio {
+    background-color: var(--color-fondo-links);
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: var(--color-hover);
+ }
+
+tr.par td {
+    background-color: var(--color-semana-par);
+}
+.hecho {
+    filter: blur(1.5px);
+    
+}
